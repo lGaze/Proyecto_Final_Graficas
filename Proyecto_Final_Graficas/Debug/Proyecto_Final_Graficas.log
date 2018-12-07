@@ -1,0 +1,10 @@
+﻿LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+CManager.obj : error LNK2019: unresolved external symbol _D3D11CreateDeviceAndSwapChain@48 referenced in function "public: long __thiscall CManager::CreateDeviceAndSwapChain(void)" (?CreateDeviceAndSwapChain@CManager@@QAEJXZ)
+CShader.obj : error LNK2019: unresolved external symbol _D3DX11CompileFromFileW@44 referenced in function "public: long __thiscall CShader::CompileShaderFromFile(wchar_t const *,char const *,char const *,struct ID3D10Blob * *)" (?CompileShaderFromFile@CShader@@QAEJPB_WPBD1PAPAUID3D10Blob@@@Z)
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3d11.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dcompiler.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx11d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\d3dx9d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dxerr.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x64\dxguid.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Proyectos\Proyecto_Final_Graficas\Debug\Proyecto_Final_Graficas.exe : fatal error LNK1120: 2 unresolved externals
