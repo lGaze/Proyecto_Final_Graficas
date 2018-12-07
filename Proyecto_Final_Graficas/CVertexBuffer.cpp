@@ -14,7 +14,8 @@ CVertexBuffer::~CVertexBuffer()
 }
 #ifdef DIRECTX
 
-#else
+
+#elif defined( OPENGL)
 
 void CVertexBuffer::createVertexBuffer(std::vector<GLfloat> vertices)
 {

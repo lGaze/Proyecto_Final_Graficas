@@ -13,7 +13,9 @@ CRenderTarget::~CRenderTarget()
 #ifdef DIRECTX
 
 
-#else
+
+#elif defined( OPENGL)
+
 void CRenderTarget::creteRenderTarget(GLFWwindow * window)
 {
   glfwGetFramebufferSize(window, &width, &height);

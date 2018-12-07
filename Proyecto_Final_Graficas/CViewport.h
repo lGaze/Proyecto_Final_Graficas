@@ -16,7 +16,7 @@ public:
 	void SetUpViewport(UINT width, UINT height);
 	D3D11_VIEWPORT vp;
 
-#else
+#elif defined( OPENGL)
 
   void createViewport(int width, int height);
 

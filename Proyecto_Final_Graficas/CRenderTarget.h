@@ -13,8 +13,8 @@ public:
 
 #ifdef DIRECTX
   ID3D11RenderTargetView* m_pRenderTargetView = NULL;
-#else
 
+#elif defined( OPENGL)
   GLuint Backbuffer;
   int width;
   int height;

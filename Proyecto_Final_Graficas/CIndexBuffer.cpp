@@ -14,7 +14,8 @@ CIndexBuffer::~CIndexBuffer()
 
 #ifdef DIRECTX
 
-#else
+
+#elif defined( OPENGL)
 
 
 void CIndexBuffer::createIndexBuffer(std::vector<short>& indices)

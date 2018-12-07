@@ -13,7 +13,9 @@ public:
 
 #ifdef DIRECTX;
 	UINT flag = D3D11_BIND_VERTEX_BUFFER;
-#else
+
+
+#elif defined( OPENGL)
 
   GLuint vertex_buffer;
   void createVertexBuffer(std::vector<GLfloat> vertices);

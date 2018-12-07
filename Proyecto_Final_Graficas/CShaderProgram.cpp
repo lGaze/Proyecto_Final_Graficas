@@ -13,7 +13,8 @@ CShaderProgram::~CShaderProgram()
 }
 #ifdef DIRECTX
 
-#else
+
+#elif defined( OPENGL)
 
 HRESULT CShaderProgram::setShaderParameters(ShaderParameters & shaderparam)
 {

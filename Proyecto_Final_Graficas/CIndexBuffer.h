@@ -13,7 +13,8 @@ public:
 #ifdef DIRECTX
 
 	UINT flag = D3D11_BIND_INDEX_BUFFER;
-#else
+
+#elif defined( OPENGL)
 
   GLuint index_buffer;
   void createIndexBuffer(std::vector<short>& indices);

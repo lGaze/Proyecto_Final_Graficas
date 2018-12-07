@@ -23,7 +23,8 @@ public:
 
 #ifdef DIRECTX
 
-#else
+
+#elif defined( OPENGL)
 
   CShader m_vertexShader;
   CShader m_fragmentShader;

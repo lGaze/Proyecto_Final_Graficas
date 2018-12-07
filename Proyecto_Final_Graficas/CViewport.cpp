@@ -30,7 +30,9 @@ void CViewport::SetUpViewport(UINT width, UINT height)
 
 }
 
-#else
+
+#elif defined( OPENGL)
+
 void CViewport::createViewport(int width, int height)
 {
   glViewport(0.0f, 0.0f, width, height);

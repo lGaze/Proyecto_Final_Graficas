@@ -358,7 +358,8 @@ HRESULT CManager::loadTexture(LPCWSTR pSrcFile)
   return D3DX11CreateShaderResourceViewFromFile(*device.getDevicePointer(), pSrcFile, NULL, NULL, &shader.m_pTextureRV , NULL);
 }
 
-#else
+
+#elif defined( OPENGL)
 
 void CManager::createRenderTarget(GLFWwindow * window)
 {

@@ -39,7 +39,8 @@ private:
 
 	CPixelShader PS;
 	CVertexShader VS;
-#else
+
+#elif defined( OPENGL)
 
   char * m_ShaderBuffer;
   GLuint Glshader;

@@ -59,7 +59,8 @@ void CShader::releaseVS()
 	pVSBlob->Release();
 }
 
-#else
+
+#elif defined( OPENGL)
 
 HRESULT CShader::LoadShaderSourceFile(const char * _FilePath)
 {

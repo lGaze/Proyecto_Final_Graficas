@@ -1,4 +1,4 @@
 #pragma once
 
 //#define DIRECTX
-#define OPENGL
+//#define OPENGL

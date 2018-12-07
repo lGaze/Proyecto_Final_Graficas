@@ -21,7 +21,8 @@ void CDepth::CreateDescDSV(D3D11_TEXTURE2D_DESC descDepth)
 
 }
 
-#else
+#elif defined(OPENGL)
+
 void CDepth::createDSV(int width , int height)
 {
   glGenTextures(1, &DepthTexture);
@@ -34,4 +35,6 @@ void CDepth::createDSV(int width , int height)
 
   glBindTexture(GL_TEXTURE_2D, 0);
 }
+#else
+
 #endif

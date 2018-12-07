@@ -20,7 +20,7 @@ public:
   ID3D11DepthStencilView*     m_pDepthStencilView = NULL;
   D3D11_DEPTH_STENCIL_VIEW_DESC descDSV;
 
-#else
+#elif defined( OPENGL)
 
   GLuint DepthTexture;
   void createDSV(int width, int height);
